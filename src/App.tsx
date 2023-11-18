@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetch('http://localhost:3000/api').then((res) =>
+        const data = await fetch('https://stellar-api.onrender.com/api').then((res) =>
           res.json(),
         )
         setMessage(data)
