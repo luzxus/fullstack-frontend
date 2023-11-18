@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './vite.svg' // Assuming that vite.svg is in the same directory
 import './App.css'
 
 function App() {
